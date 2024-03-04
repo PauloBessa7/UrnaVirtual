@@ -75,12 +75,12 @@ li {
    width: 1fr;
    height: 80vh;
    background-position: top;
+   margin: 20px 0px;
+   
 }
 
 #candidatos {
-    margin: 2% 0px;
-
-    padding: 10px;
+    margin: 20px 0px;
 
     display: grid;
 
@@ -88,6 +88,14 @@ li {
     grid-auto-rows: minmax(400px, auto);
     gap: 10px;
     
+}
+
+#candidatosText{
+   text-align: center;
+}
+
+#candidatosText{
+    font-size: 110%;
 }
 
 .candidato {
